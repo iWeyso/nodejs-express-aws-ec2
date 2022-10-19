@@ -27,5 +27,5 @@ app.get('/products', (req, res) => {
 )
 
 app.listen(port, () => {
-    console.log('Demo app listening to port ' + port);
+    console.log('Demo app listening to port ');
 })
