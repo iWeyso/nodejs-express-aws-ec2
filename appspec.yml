@@ -7,7 +7,7 @@ files:
 
 hooks: 
   ApplicationStop: 
-    - location: scripts/application_stop.sh
+    - location: script/application_stop.sh
       timeout: 300
       runas : ec2-user
   BeforeInstall: 
